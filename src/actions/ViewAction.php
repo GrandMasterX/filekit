@@ -1,12 +1,12 @@
 <?php
 
-namespace grandmasterx\flekit\actions;
+namespace grandmasterx\filekit\actions;
 
 use yii\web\HttpException;
 
 /**
  * Class ViewAction
- * @package grandmasterx\flekit\actions
+ * @package grandmasterx\filekit\actions
  * @author GrandMasterX <zgrandmasterz@gmail.com>
  */
 class ViewAction extends BaseAction

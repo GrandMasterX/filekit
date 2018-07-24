@@ -1,5 +1,5 @@
 <?php
-namespace grandmasterx\flekit\widget;
+namespace grandmasterx\filekit\widget;
 
 use yii\web\AssetBundle;
 

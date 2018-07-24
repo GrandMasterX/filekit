@@ -1,12 +1,12 @@
 <?php
 
-namespace grandmasterx\flekit\events;
+namespace grandmasterx\filekit\events;
 
 use yii\base\Event;
 
 /**
  * Class StorageEvent
- * @package grandmasterx\flekit\events
+ * @package grandmasterx\filekit\events
  * @author GrandMasterX <zgrandmasterz@gmail.com>
  */
 class StorageEvent extends Event

@@ -6,18 +6,18 @@
  * Time: 1:20 PM
  */
 
-namespace grandmasterx\flekit\actions;
+namespace grandmasterx\filekit\actions;
 
 use yii\web\HttpException;
 use League\Flysystem\FilesystemInterface;
-use grandmasterx\flekit\events\UploadEvent;
+use grandmasterx\filekit\events\UploadEvent;
 use League\Flysystem\File as FlysystemFile;
 
 /**
  * public function actions(){
  *   return [
  *           'upload'=>[
- *               'class'=>'grandmasterx\flekit\actions\DeleteAction',
+ *               'class'=>'grandmasterx\filekit\actions\DeleteAction',
  *               'on afterDelete' => function($event) {
  *                   $file = $event->file;
  *                   $thumb_path = Yii::getAlias('@storage/web/source/thumb/') . $file->getPath();

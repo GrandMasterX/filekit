@@ -1,8 +1,8 @@
 <?php
-namespace grandmasterx\flekit\actions;
+namespace grandmasterx\filekit\actions;
 
 use League\Flysystem\FilesystemInterface;
-use grandmasterx\flekit\events\UploadEvent;
+use grandmasterx\filekit\events\UploadEvent;
 use League\Flysystem\File as FlysystemFile;
 use Yii;
 use yii\base\DynamicModel;
@@ -16,7 +16,7 @@ use yii\web\UploadedFile;
 * public function actions(){
 *   return [
 *           'upload'=>[
-*               'class'=>'grandmasterx\flekit\actions\UploadAction',
+*               'class'=>'grandmasterx\filekit\actions\UploadAction',
 *           ]
 *       ];
 *   }

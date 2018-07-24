@@ -1,9 +1,9 @@
 <?php
-namespace grandmasterx\flekit\filesystem;
+namespace grandmasterx\filekit\filesystem;
 
 /**
  * Interface FilesystemBuilderInterface
- * @package grandmasterx\flekit\filesystem
+ * @package grandmasterx\filekit\filesystem
  */
 interface FilesystemBuilderInterface
 {

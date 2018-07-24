@@ -1,15 +1,15 @@
 {
-  "name": "yii2-file-kit",
+  "name": "filekit",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trntv/yii2-file-kit.git"
+    "url": "git+https://github.com/grandmasterx/filekit.git"
   },
-  "author": "Eugene Terentev",
+  "author": "GrandMasterX",
   "bugs": {
-    "url": "https://github.com/trntv/yii2-file-kit/issues"
+    "url": "https://github.com/grandmasterx/filekit/issues"
   },
-  "homepage": "https://github.com/trntv/yii2-file-kit#readme",
+  "homepage": "https://github.com/grandmasterx/filekit#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-less": "^3.0.3",

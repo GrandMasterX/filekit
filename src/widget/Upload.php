@@ -3,7 +3,7 @@
  * Author: Eugine Terentev <eugine@terentev.net>
  */
 
-namespace grandmasterx\flekit\widget;
+namespace grandmasterx\filekit\widget;
 
 use Yii;
 use yii\base\InvalidParamException;
@@ -16,7 +16,7 @@ use yii\widgets\InputWidget;
 
 /**
  * Class Upload
- * @package grandmasterx\flekit\widget
+ * @package grandmasterx\filekit\widget
  */
 class Upload extends InputWidget
 {

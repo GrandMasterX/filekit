@@ -1,5 +1,5 @@
 <?php
-namespace grandmasterx\flekit\widget;
+namespace grandmasterx\filekit\widget;
 
 use yii\web\AssetBundle;
 
@@ -22,6 +22,6 @@ class BlueimpFileuploadAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'grandmasterx\flekit\widget\BlueimpLoadImageAsset'
+        'grandmasterx\filekit\widget\BlueimpLoadImageAsset'
     ];
 }

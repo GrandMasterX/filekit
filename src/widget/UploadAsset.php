@@ -3,7 +3,7 @@
  * Author: Eugine Terentev <eugine@terentev.net>
  */
 
-namespace grandmasterx\flekit\widget;
+namespace grandmasterx\filekit\widget;
 
 use yii\web\AssetBundle;
 
@@ -13,7 +13,7 @@ class UploadAsset extends AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset',
-        'grandmasterx\flekit\widget\BlueimpFileuploadAsset'
+        'grandmasterx\filekit\widget\BlueimpFileuploadAsset'
     ];
 
     public $sourcePath = __DIR__ . '/assets';

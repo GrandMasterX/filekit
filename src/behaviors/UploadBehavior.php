@@ -1,7 +1,7 @@
 <?php
-namespace grandmasterx\flekit\behaviors;
+namespace grandmasterx\filekit\behaviors;
 
-use grandmasterx\flekit\Storage;
+use grandmasterx\filekit\Storage;
 use Yii;
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
@@ -95,7 +95,7 @@ class UploadBehavior extends Behavior
      */
     protected $deletePaths;
     /**
-     * @var \grandmasterx\flekit\Storage
+     * @var \grandmasterx\filekit\Storage
      */
     protected $storage;
     /**
@@ -319,7 +319,7 @@ class UploadBehavior extends Behavior
     }
 
     /**
-     * @return \grandmasterx\flekit\Storage
+     * @return \grandmasterx\filekit\Storage
      * @throws \yii\base\InvalidConfigException
      */
     protected function getStorage()

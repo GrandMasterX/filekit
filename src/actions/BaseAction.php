@@ -1,13 +1,13 @@
 <?php
-namespace grandmasterx\flekit\actions;
+namespace grandmasterx\filekit\actions;
 
-use grandmasterx\flekit\Storage;
+use grandmasterx\filekit\Storage;
 use yii\base\Action;
 use yii\di\Instance;
 
 /**
  * Class BaseAction
- * @package grandmasterx\flekit\actions
+ * @package grandmasterx\filekit\actions
  * @author GrandMasterX <zgrandmasterz@gmail.com>
  */
 abstract class BaseAction extends Action
@@ -31,7 +31,7 @@ abstract class BaseAction extends Action
     public $allowChangeFilestorage = false;
 
     /**
-     * @return \grandmasterx\flekit\Storage
+     * @return \grandmasterx\filekit\Storage
      * @throws \yii\base\InvalidConfigException
      */
     protected function getFileStorage()

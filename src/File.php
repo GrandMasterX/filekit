@@ -1,5 +1,5 @@
 <?php
-namespace grandmasterx\flekit;
+namespace grandmasterx\filekit;
 
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;
@@ -9,7 +9,7 @@ use yii\web\UploadedFile;
 
 /**
  * Class File
- * @package grandmasterx\flekit
+ * @package grandmasterx\filekit
  * @author GrandMasterX <zgrandmasterz@gmail.com>
  */
 class File extends BaseObject
