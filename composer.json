@@ -1,5 +1,5 @@
 {
-    "name": "GrandMasterX/filekit",
+    "name": "grandmasterx/filekit",
     "description": "Yii2 file upload and storage kit",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
